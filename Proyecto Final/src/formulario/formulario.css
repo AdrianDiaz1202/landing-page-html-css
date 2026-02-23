@@ -1,0 +1,41 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:20px;
+    background-color: #F5F5F5;
+}
+h1{
+    text-align: center;
+}
+form{
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 7px;
+}
+form input[type="text"], form textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    border:solid 2px red;
+    resize: none;
+}
+textarea{
+    padding: none;
+}
+
+form button {
+    background-color: #FFCC00;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+form button:hover{
+    background-color: #e6b800;
+}
+
+form input[type="file"]{
+    margin: 15px;
+}

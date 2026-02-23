@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Simpsons</title>
+    <link rel="shortcut icon" href="../Favicons/18-simpson-01.png" type="image/x-icon">
+    <link rel="stylesheet" href="formulario.css">
+    <!-- la clase tiende mas a utilizarce para estilos y los id para la logica del codigo -->
+
+</head>
+
+<h1 class="titulo">crud de los personajes de los simpsons</h1>
+<form id="formularioPersonajes" class="formularioPersonajes">
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" placeholder="ej:homero Simpson">
+    
+    <label for="descripcion">Descripcion</label>
+    <textarea name="" id="descripcion" rows="3"
+    placeholder="escribe una breve descripcion del personaje"></textarea>
+    
+    <!-- /* se utiliza para que acepte todo tipo de imagenes -->
+    <label for="imagen">Imagen</label>
+    <input type="file" id="imagen" accept="image/*">
+
+    <button type="submit">Agregar Personaje</button>
+    
+    
+    
+</form>  
+
+    <section id="listaPersonajes" class="listaPersonajes">
+        
+    </section>
+
+    <script src="./formulario.js"></script>
+</body>
+</html>
